@@ -88,6 +88,7 @@ header .header__wrap .b1__wrap .b1 .i2 {
   border-radius: 10px;
   font-feature-settings: "palt";
   width: 460px;
+  padding: 0 16px;
 }
 .s01__wrap .b1__wrap .b1 .t3 {
   background: center 58% / contain no-repeat url("../img/0105.png");
@@ -102,7 +103,14 @@ header .header__wrap .b1__wrap .b1 .i2 {
   justify-content: center;
   line-height: 1.3;
   text-align: left;
+
 }
+
+.b1_min--mark{
+  background: linear-gradient(transparent 70%, #ffe238 0%);
+  margin-bottom:20px
+}
+
 .s01__wrap .b1__wrap .b1 .close {
   position: absolute;
 }
@@ -437,6 +445,7 @@ header .header__wrap .b1__wrap .b1 .i2 {
   font-weight: 600;
   padding: 64px 0 50px;
   text-align: center;
+  padding: 0 16px;
 }
 .s09__wrap .b1__wrap {
   display: flex;
@@ -821,6 +830,14 @@ text-align:center;
 .review--icon2{
   right:0;
   left:10%
+}
+
+.s01__wrap .b1__wrap .b1 {
+  width:90%;
+}
+
+.s09__wrap .b1__wrap .b1{
+  width:90%;
 }
 
 /*notes*/
