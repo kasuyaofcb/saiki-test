@@ -39,7 +39,7 @@ header .header__wrap .b1__wrap .b1 {
 header .header__wrap .b1__wrap .b1 p {
   font-size: 2.4rem;
   font-weight: 600;
-  margin: 30px auto 30px;
+  margin: 0px auto 30px;
   color:#fff;
   font-style:normal;
   color:#ffe238;
@@ -335,6 +335,18 @@ header .header__wrap .b1__wrap .b1 .i2 {
   width: 528px;
   position:relative;
 }
+
+
+.b1-shape{
+  position:absolute;
+  top:30%;
+  right:30%;
+width:200px;
+height:200px;
+background:rgb(214,198,139,0.3);
+border-radius: 89% 29% 75% 100%;
+}
+
 
 .review--icon{
   position:absolute;
