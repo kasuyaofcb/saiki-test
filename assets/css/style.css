@@ -302,16 +302,12 @@ header .header__wrap .b1__wrap .b1 .i2 {
 }
 .s05__wrap .b1__wrap .b1 {
   background-color: #fff;
-  display: flex;
-  column-gap: 53px;
-  filter: drop-shadow(0 0 17px rgba(0,0,0,.2));
-  margin: 200px auto 0;
-  max-width: 888px;
-  padding: 50px 40px;
-  text-align: left;
-  position:relative;
+  /* display: flex; */
+  /* column-gap: 53px; */
+
+
   /* background:rgba(212,196,139,0.3); */
-  border-radius: 0% 0% 35% 0%;
+  /* border-radius: 0% 0% 35% 0%; */
 }
 
 
@@ -323,19 +319,66 @@ header .header__wrap .b1__wrap .b1 .i2 {
   position:relative;
 }
 
+.review-box{
+  display:flex;
+  margin: 200px auto 0;
+  max-width: 888px;
+  padding: 50px 40px;
+  text-align: left;
+  position:relative;
+  column-gap:32px;
+  filter: drop-shadow(0 0 17px rgba(0,0,0,.2));
+}
+
+.review-img{
+  width:280px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: flex-start;
+  height: auto;
+  align-self: flex-end;
+}
+
+.review-text{
+  background:#fff;
+  border-radius: 67% 19% 44% / 35% 22% 76%;
+  padding: 84px;
+  flex: 1;
+}
 
 .b1-shape{
   position:absolute;
   top:-30px;
   left:-30px;
-width:200px;
-height:40px;
-background:#167640;
-/* border-radius: 89% 29% 75% 100%; */
+width:100px;
+height:100px;
+background:#D6C68C;
+border-radius: 50%;
 display:flex;
 justify-content:center;
 align-items:center;
 color:#fff;
+}
+
+.review-box--even{
+  flex-direction: row-reverse;
+}
+
+.review-box--even .review-text{
+  border-radius: 49% 19% 44% / 46% 22% 20%;
+}
+
+.s05__wrap .b1__wrap .b1 .b1-textShape{
+  position:absolute;
+  top:10%;
+  right:10%;
+  width:300px;
+  height:300px;
+  border-radius: 67% 19% 44% / 35% 22% 76%;
+  background:#D6C68C;
+  opacity:0.3;
+
 }
 
 
@@ -362,13 +405,14 @@ color:#fff;
 .t1-name{
   background: #167640;
   display:inline-block;
-  padding:4px 16px;
+  padding:16px;
   border-radius:16px;
   color:#fff;
 }
 .s05__wrap .b1__wrap .b1 p {
   /* width: 528px; */
-  flex: 1;
+  margin-top:16px;
+
 }
 .s05__wrap .b1__wrap .b1b {
   margin: 40px auto 0;
