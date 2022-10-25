@@ -982,3 +982,17 @@ margin:30px auto 0;
     }
 
 }
+
+@media screen and (max-width:400px){
+  .review-box--even .b1-shape{
+    left:unset;
+    right:10px;
+    top:-20px;
+    }
+  .review-box .b1-shape{
+    left:unset;
+    right:10px;
+    top:-20px;
+    }
+
+}
