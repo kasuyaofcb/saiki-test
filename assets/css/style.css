@@ -335,7 +335,7 @@ header .header__wrap .b1__wrap .b1 .i2 {
 }
 
 .review-img{
-  width:280px;
+  max-width:280px;
   display:flex;
   flex-direction:column;
   align-items:center;
@@ -670,14 +670,14 @@ text-align:center;
 }
 .s01__wrap .b1__wrap .b1 .t3 {
   background: center 62% / contain no-repeat url("../img/0105_sp.png");
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 .s01__wrap .b1__wrap .b1 .b1_min {
   font-size: 1.2rem;
   padding: .5em 0;
 }
 .s01__wrap .b1__wrap .b1 .b1_min .t4 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 .s01__wrap .t5 {
   font-weight: 400;
